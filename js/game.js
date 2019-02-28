@@ -2,19 +2,19 @@
 
 var game = {
     music: "98_Lost_Mine.mp3",
-    background_image: "intro-bg.jpg",
+    background_image: "light.jpg",
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You get in a car accident and you kill 2 twin babies. What do you do?",
             choices: [
                 {
-                    text: "Enter the cave",
+                    text: "escape",
                     nextLevel: "cave",
                 },
 
                 {
-                    text: "Keep on moving",
+                    text: "Prision",
                     nextLevel: "field",
                 },
             ]
